@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container-lg mt-5 container-fluid">
+      <div class="row">
+        <div
+          class="col-md-6 mx-auto d-flex justify-content-center align-items-center flex-column"
+        >
+          <div id="countdown" class="text-center">0:00</div>
+
+          <div class="input-group">
+            <input type="time" class="form-control" id="input-time" />
+            <button class="btn btn-outline-secondary px-5" id="start-timer">
+              Start
+            </button>
+          </div>
+
+          <button class="btn-block mt-3 px-5 py-3" id="reset-timer">
+            Reset
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

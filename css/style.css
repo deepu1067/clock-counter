@@ -1,0 +1,39 @@
+@import url(all.min.css);
+@import url(bootstrap.min.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+#countdown {
+  font-size: 12rem;
+}
+.input-group {
+  gap: 10px;
+}
+
+input[type="time"] {
+  font-size: 2rem;
+}
+
+.input-group button {
+  font-size: 1.4rem;
+  color: #000000;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+#reset-timer {
+  background-color: #ff922cff;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+#reset-timer:hover {
+  border-color: #ff922cff;
+  background-color: transparent;
+}
